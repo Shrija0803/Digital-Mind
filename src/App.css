@@ -1,0 +1,122 @@
+/* MAIN CONTAINER */
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+/* ---------- HOME SCREEN ---------- */
+.home-title {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 48px;
+  color: #C17070;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 20px;
+  color: #F09B9E;
+}
+
+.home-small {
+  font-size: 18px;
+  color: #A23E64;
+  margin-bottom: 40px;
+}
+
+.big-button {
+  display: block;
+  margin: 15px auto;
+  width: 260px;
+  padding: 14px;
+  background: #C17070;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.big-button:hover {
+  opacity: 0.9;
+}
+
+/* ---------- LANGUAGE PAGE ---------- */
+.language-page {
+  margin-top: 50px;
+}
+
+.lang-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #A23E64;
+}
+
+.lang-btn {
+  display: block;
+  width: 240px;
+  margin: 10px auto;
+  padding: 12px;
+  background: #F3D9D9;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.lang-btn:hover {
+  background: #F0CACA;
+}
+
+/* ---------- INTRO SCREEN (YOUR DESIGN) ---------- */
+.intro-screen {
+  margin-top: 30px;
+}
+
+.hello-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #A23E64;
+}
+
+.field-label {
+  font-size: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+.input-box {
+  width: 260px;
+  margin: 10px auto 20px;
+  display: block;
+  padding: 12px;
+  background: #F3F7C4;
+  border: none;
+  border-radius: 8px;
+}
+
+.signin-btn {
+  margin-top: 20px;
+  width: 150px;
+  padding: 12px;
+  background: #D7F5C4;
+  border: none;
+  font-size: 20px;
+  color: #A23E64;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.signin-btn:hover {
+  opacity: 0.9;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  margin-top: 25px;
+  background: none;
+  border: none;
+  color: #C17070;
+  font-size: 18px;
+  cursor: pointer;
+}
