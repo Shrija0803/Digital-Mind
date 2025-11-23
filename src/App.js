@@ -11,7 +11,7 @@ function HomeScreens() {
   return (
     <div className="container">
 
-      {/* ---------------- HOME SCREEN ---------------- */}
+      {/* HOME SCREEN */}
       {screen === "home" && (
         <div className="home-screen">
           <h1 className="home-title">DIGITAL MIND</h1>
@@ -28,7 +28,7 @@ function HomeScreens() {
         </div>
       )}
 
-      {/* ---------------- LANGUAGE SCREEN ---------------- */}
+      {/* LANGUAGE SCREEN */}
       {screen === "language" && (
         <div className="language-page">
           <h2 className="lang-title">Select Your Language</h2>
@@ -45,7 +45,7 @@ function HomeScreens() {
         </div>
       )}
 
-      {/* ---------------- INTRO SCREEN ---------------- */}
+      {/* INTRO SCREEN */}
       {screen === "intro" && (
         <div className="intro-screen">
           <h2 className="hello-text">

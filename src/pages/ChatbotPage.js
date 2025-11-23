@@ -17,19 +17,23 @@ function ChatbotPage() {
       return "I'm really sorry you're feeling this way. Want to talk about what happened?";
     }
 
-    if (msg.includes("stress") || msg.includes("tension")) {
+    if (msg.includes("nervous") || msg.includes("anxious") || msg.includes("palpatic")) {
+      return "I hear you. It can be overwhelming, but you’re safe. Try a 4-second breath in… hold for 2… and slowly out for 6. Want to share what triggered this feeling?";
+    }
+
+    if (msg.includes("stress") || msg.includes("tension") || msg.includes("depression")) {
       return "Stress can feel heavy... Try taking one slow deep breath right now. I'm here with you.";
     }
 
-    if (msg.includes("happy") || msg.includes("good")) {
+    if (msg.includes("happy") || msg.includes("good") || msg.includes("cheerful") || msg.includes("joyful")) {
       return "Awww that’s nice to hear! Tell me more 🌼";
     }
 
-    if (msg.includes("angry")) {
+    if (msg.includes("angry") || msg.includes("furious")) {
       return "Being angry is okay… emotions are valid. Do you want to tell me why you feel this way?";
     }
 
-    if (msg.includes("alone")) {
+    if (msg.includes("alone") || msg.includes("lonely")) {
       return "You’re not alone. I’m right here with you, and we can talk as long as you want 💛";
     }
 

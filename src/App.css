@@ -4,7 +4,7 @@
   padding: 30px;
 }
 
-/* ---------- HOME SCREEN ---------- */
+/* HOME SCREEN */
 .home-title {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 48px;
@@ -41,7 +41,7 @@
   opacity: 0.9;
 }
 
-/* ---------- LANGUAGE PAGE ---------- */
+/* LANGUAGE PAGE */
 .language-page {
   margin-top: 50px;
 }
@@ -68,7 +68,7 @@
   background: #F0CACA;
 }
 
-/* ---------- INTRO SCREEN (YOUR DESIGN) ---------- */
+/* INTRO SCREEN */
 .intro-screen {
   margin-top: 30px;
 }
