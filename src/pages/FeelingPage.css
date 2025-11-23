@@ -1,0 +1,43 @@
+.feeling-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option {
+  padding: 18px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+
+.pink { background: #f4b6cf; }
+.coral { background: #f2a2a2; }
+.blue { background: #a8dcf2; }
+.green { background: #c9db76; }

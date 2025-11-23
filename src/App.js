@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import FeelingPage from "./pages/FeelingPage";
+import ChatbotPage from "./pages/ChatbotPage";
 import "./App.css";
 
-function App() {
+function HomeScreens() {
   const [screen, setScreen] = useState("home");
 
   return (
@@ -41,7 +45,7 @@ function App() {
         </div>
       )}
 
-      {/* ---------------- INTRO SCREEN (YOUR IMAGE SCREEN) ---------------- */}
+      {/* ---------------- INTRO SCREEN ---------------- */}
       {screen === "intro" && (
         <div className="intro-screen">
           <h2 className="hello-text">
@@ -57,7 +61,7 @@ function App() {
           <label className="field-label">Password</label>
           <input className="input-box" placeholder="So that we protect your personal data" type="password" />
 
-          <button className="signin-btn">
+          <button className="signin-btn" onClick={() => window.location.href = "/feeling"}>
             SIGN IN
           </button>
 
@@ -68,6 +72,23 @@ function App() {
       )}
 
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Home + Intro + Language Pages */}
+        <Route path="/" element={<HomeScreens />} />
+
+        {/* Feeling Page */}
+        <Route path="/feeling" element={<FeelingPage />} />
+
+        {/* Chatbot Page */}
+        <Route path="/chatbot" element={<ChatbotPage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -120,3 +120,50 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+/* FEELING PAGE */
+.feeling-page {
+  padding: 20px;
+  text-align: left;
+}
+
+.back-arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.feeling-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.feeling-subtitle {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.feeling-btn {
+  display: block;
+  width: 85%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pink { background: #F7B7D3; }
+.rose { background: #F7A4A4; }
+.blue { background: #9BD7F2; }
+.green { background: #C5D96D; }
+
+.feeling-image {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
